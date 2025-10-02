@@ -154,7 +154,7 @@ const WEB3FORMS_ACCESS_KEY = "5183685e-c01d-4bfd-8dc6-c2bea5f6ea64";
     }
 
 
-   const SITE_KEY ='6LcoW9wrAAAAALB0pwRxUgGeeFYKrr22m6N5AsaE'
+   const SITE_KEY ='6Lf2idwrAAAAAELGyq7hV3JiUWMFvG-jW2qy24Q7'
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
