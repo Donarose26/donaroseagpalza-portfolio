@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid py-md-5" id="contact">
-    <div class="row justify-content-center py-md-0 my-md-5">
+    <div class="row justify-content-center py-md-0 my-md-3">
       <h2 class="text-center">Contact</h2>
 
       <div class="row g-0 contact-section">
@@ -16,7 +16,7 @@
         </div>
 
         <!-- Contact Form -->
-        <div class="col-md-6 d-flex justify-content-center align-items-center p-4">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
           <form @submit.prevent="submitForm">
 
             <div class="mb-3">
@@ -35,31 +35,10 @@
               <div ref="recaptchaContainer"></div>
             </div>
         
-            <!-- FIX: button type="submit" so form works -->
-            <button type="submit" class="btn mt-2" :disabled="isLoading">
+            
+            <button type="submit" class="btn ms-auto" :disabled="isLoading">
               {{isLoading? "Sending..." : "Submit"}}
             </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel">Thank you for messaging us!</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-
-                  <div class="modal-body">
-                    We will get back to you shortly!
-                  </div>
-
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>      
-                </div>
-              </div>
-            </div>
 
           </form>
         </div>
@@ -78,9 +57,7 @@
             <img src="/images/GitHub.png" alt="GitHub">
           </a>
         </div>
-
-        <!-- FIX: Back to Top INSIDE contact container -->
-        <div class="text-center mt-4">
+        <div class="text-center">
           <a href="#top"><h6>Back to Top</h6></a>
         </div>
 

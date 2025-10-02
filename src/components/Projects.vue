@@ -9,7 +9,7 @@
         <div
             v-for="(group, index) in chunkedProjects"
             :key="index"
-            class="row justify-content-center g-4 py-md-0 my-md-5"
+            class="row justify-content-center g-4 py-md-0 my-md-3"
         >
             <!-- For each project in the current group, render a project card componet -->
             <ProjectCard

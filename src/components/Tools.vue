@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid" id="tools">
-    <div class="row justify-content-center py-md-0 my-md-5">
+    <div class="row justify-content-center py-md-0 my-md-3">
 
-      <h2 class="text-center my-4 pt-5">Tools</h2>
+      <h2 class="text-center my-4 pt-3">Tools</h2>
       
       <div class="col-md-4 my-3 my-md-0 d-flex">
         <div class="box1">
